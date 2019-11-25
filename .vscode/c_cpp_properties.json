@@ -1,0 +1,26 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${env.HOME}/homebrew/include",
+                "${env.HOME}/Development/glm/glm",
+                "${env.HOME}/Development/stb",
+                "${env.HOME}/Development/tinyobjloader"
+            ],
+            "defines": [],
+            "macFrameworkPath": [
+                "/System/Library/Frameworks",
+                "/Library/Frameworks",
+                "${env.HOME}/homebrew/bin",
+                "${env.HOME}/Development/vulkansdk-macos-1.1.97.0/macOS/Frameworks"
+            ],
+            "compilerPath": "/usr/bin/clang",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "clang-x64"
+        }
+    ],
+    "version": 4
+}
